@@ -40,14 +40,13 @@ export default {
   methods: {
     submitForm() {
       this.output = this.selectedOption
-      console.log(selectedOption)
-      console.log(this.output)
+      console.log(this.selectedOption)
     }
   },
   data() {
     return { 
       covidData_1: [],
-      selectedOption: '',
+      selectedOption: null  ,
       output: ''
     };
   },

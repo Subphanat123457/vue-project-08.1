@@ -10,16 +10,14 @@
 </template>
 <script>
 import Navbar from './components/nevbar.vue';
-import ApiRequest from './ApiRequest.vue';
-import ApiRequest_1 from './ApiRequest_1.vue';
-
+import ApiRequest from './components/ApiRequest.vue';
+import ApiRequest_1 from './components/ApiRequest_1.vue';
 
 export default {
   components: {
     Navbar,
     ApiRequest,
     ApiRequest_1,
-    
   }
 };
 

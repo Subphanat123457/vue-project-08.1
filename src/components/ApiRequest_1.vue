@@ -1,7 +1,7 @@
 <template>
     <div style="padding: 0px; margin: 0px ;">  
       <div class="border">
-        <h1>COVID-19 One Week in Thiland</h1>
+        <h1>COVID-19 One Week in Thailand</h1>
         <a v-for="item in covidData_1" :key="item">
             <p>Province: {{ item.province }}</p>
             <p>New Case: {{ item.new_case }}

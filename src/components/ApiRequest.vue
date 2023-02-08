@@ -17,7 +17,7 @@
   
 </template>
 <script>
-import selectitem from './select.vue';
+import selectitem from './icons/select.vue';
 import axios from 'axios';
 export default {
   components: {
@@ -46,6 +46,3 @@ export default {
 
 </script>
 
-<style>
-
-</style>
